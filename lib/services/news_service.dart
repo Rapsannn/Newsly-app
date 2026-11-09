@@ -4,7 +4,7 @@ import 'package:http/http.dart' as http;
 import '../models/article.dart';
 
 class NewsService {
-  // static const String _apiKey = '7f62243b62044f90bca396822e451ee1';
+  
   final String _apiKey = dotenv.env['NEWS_API_KEY'] ?? '';
 
   // Mengambil berita berdasarkan kategori
